@@ -5,7 +5,7 @@ const errorEl = document.getElementById("error");
 
 async function sendContact(contact) {
   try {
-    const resp = await fetch("/api/contact", {
+    const resp = await fetch("/api/contact.js", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
